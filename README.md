@@ -35,39 +35,26 @@ discord.py
 googletrans==4.0.0-rc1
 Then install the dependencies:
 
-
+`
 pip install -r requirements.txt
 Configuration
 Open the translator.py file.
+`
 
-Replace "YOUR_BOT_TOKEN" with your actual Discord bot token in the code:
-
-
-bot.run("YOUR_BOT_TOKEN")
-(Optional) For better security, consider storing your token in an environment variable and using a package like python-dotenv.
-
-Usage
-Run the Bot
-Execute the following command in your terminal:
-
-
-python translator.py
-Use the Translation Command in Discord
-In any channel where the bot has access, type:
-
-
+```
 !translate <language_code> <text>
-Example:
-
+```
+## Example:
+ ```bash
 - !translate es Hello, how are you?
 The bot will reply with the original text and its Spanish translation.
+```
 
 ## Troubleshooting
 - Ensure that your Discord bot token is correct.
-
 - Make sure the dependencies are installed properly.
 
-Check that the bot has permissions to read and send messages in the desired channel.
+`Check that the bot has permissions to read and send messages in the desired channel.`
 
 License
 This project is licensed under the MIT License.
