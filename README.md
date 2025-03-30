@@ -59,13 +59,13 @@ In any channel where the bot has access, type:
 !translate <language_code> <text>
 Example:
 
-!translate es Hello, how are you?
+- !translate es Hello, how are you?
 The bot will reply with the original text and its Spanish translation.
 
-Troubleshooting
-Ensure that your Discord bot token is correct.
+## Troubleshooting
+- Ensure that your Discord bot token is correct.
 
-Make sure the dependencies are installed properly.
+- Make sure the dependencies are installed properly.
 
 Check that the bot has permissions to read and send messages in the desired channel.
 
